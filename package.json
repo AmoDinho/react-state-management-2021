@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build:style": "postcss src/styles/index.css -o src/styles/tailwind.css",
-    "start": "npm run build:style && react-scripts start",
+    "start": " mdx-deck deck.mdx npm run build:style",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
