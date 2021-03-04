@@ -5,6 +5,10 @@
   "repository": "git@github.com:AmoDinho/react-state-management-2021.git",
   "author": "AmoDinho <u14284783@tuks.co.za>",
   "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck 2021/content.mdx",
+    "build": "mdx-deck build 2021/content.mdx"
+  },
   "devDependencies": {
     "mdx-deck": "^4.1.1"
   }
