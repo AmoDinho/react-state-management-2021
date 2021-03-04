@@ -5,8 +5,8 @@
 
 [build]
   base    = ""
-  publish = "build"
-  command = "mdx-deck build 2021/content.mdx"
+  publish = "public"
+  command = "npm run build"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
