@@ -1,11 +1,11 @@
 import React from "react";
 import HeadingOne from "../components/HeadingOne";
+import Intro from "!babel-loader!@mdx-js/loader!..content/Intro.mdx";
+
 const Index = () => {
   return (
     <>
-      <HeadingOne className="text-center text-blue-500">
-        This is the home page of the app!
-      </HeadingOne>
+      <Intro />
     </>
   );
 };
